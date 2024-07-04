@@ -1,0 +1,5 @@
+<h1>Hello {{name}}</h1>
+<button (click)="fireEvent()">Send Event</button>
+<ul *ngFor="let employee of employeeList">
+    <li>{{employee.id}} - {{employee.name}} </li>
+</ul>
